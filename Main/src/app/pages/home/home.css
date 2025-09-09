@@ -1,0 +1,169 @@
+header {
+  margin-top: 35px;
+  display: flex;
+  justify-content: center;
+
+  .navbar {
+    
+  }
+}
+
+#logo {
+  margin-left: 13px;
+  width: 16%;
+  height: 100%;
+  
+}
+
+@media (max-width: 1040px) {
+  #logo {
+    margin-left: 5px;
+    width: 25%;
+  }
+}
+
+.navbar ul {
+  display: flex;
+  justify-content: center;
+  width: 69%;
+  padding: 0%;
+  margin: 0%;
+}
+
+.navbar li {
+  font-family: 'League Spartan', sans-serif;
+  font-size: 20px;
+  margin: 14px;
+  display: inline-block;
+  list-style-type: none;
+}
+
+@media (max-width: 1040px) {
+  .navbar li {
+    display: none;
+  }
+}
+
+.material-symbols-outlined {
+  display: none;
+}
+
+@media (max-width: 1040px) {
+  .material-symbols-outlined {
+    display: flex;
+    cursor: pointer;
+    color: #c4a473;
+  }
+}
+
+.containera button {
+  font-size: 22px;
+  font-family: 'League Spartan', sans-serif;
+  width: 13%;
+  border: solid 1px #c4a473;
+  border-radius: 28px;
+  background-color: rgba(0, 0, 0, 0);
+  padding: 10px;
+}
+
+.containera button:hover {
+    background-color: #c4a473;
+    transition-delay: 70ms;
+    transform: scale(1.05) ;
+  }
+
+@media (max-width: 1040px) {
+  .input {
+    display: block;
+    font-size: 26px;
+    font-family: 'League Spartan', sans-serif;
+    width: 100%;
+    border-radius: 28px;
+    padding: 7px;
+    background-color: #c4a473;
+    border: 0px;
+  }
+}
+
+
+@media (max-width: 1040px) {
+  .input:hover {
+    background-color: #ffe600;
+    transition-delay: 70ms;
+    transform: scale(1.1) ;
+  }
+}
+
+@media (max-width: 1040px) {
+  .containera button {
+    display: none;
+  }
+}
+
+.containera {
+  width: 100%;
+  padding: 0%;
+  align-items: center;
+  justify-content: flex-start;
+  display: flex;
+}
+
+@media (max-width: 1040px) {
+  .containera {
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+    gap: 0px;
+    display: flex;
+  }
+}
+
+.navbar {
+  display: inline-block;
+  width: 45%;
+  box-shadow: 2px 3px rgba(0, 0, 0, 0.068);
+  border-radius: 40px;
+  background-color: #e6d8c3;
+  padding: 7px;
+}
+
+@media (max-width: 1040px) {
+  .navbar {
+    display: inline-block;
+    border-radius: 40px;
+    background-color: #e6d8c3;
+    width: 95%;
+    padding: 8px;
+  }
+}
+
+.overlay {
+  opacity: 0;
+  
+}
+
+@media (max-width: 1040px) {
+  .overlay.aberto {
+    opacity: 1;
+    padding: 25px;
+    display: block;
+    position: fixed;
+    height: 100vh;
+    width: 100vw;
+    top: 0;
+    background: #644424;
+    transition: opacity 0.3s ease;
+    transition-delay: 0.1s;
+  }
+}
+
+@media (max-width: 1040px) {
+  .menu {
+    margin-top: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 35px;
+    color: white;
+  }
+}

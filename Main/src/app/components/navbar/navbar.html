@@ -1,0 +1,33 @@
+<header class="header">
+  <div class="navbar">
+    <div class="container-primary">
+      <img src="log.png" />
+      <ul>
+        <li>teacher IA</li>
+        <li>rotina</li>
+        <li>calendar IA</li>
+      </ul>
+      <span class="material-symbols-outlined" (click)="estadoMenu()">menu</span>
+      <button>login</button>
+    </div>
+  </div>
+</header>
+
+<div class="overlay" [class.aberto]="menuAberto">
+  <button
+    class="btn btn-close"
+    (click)="estadoMenu()"
+    style="background-color: white; float: right"
+  ></button>
+  <div class="menu">
+    <div class="menudumenu">
+      <p>teacher IA</p>
+      <hr>
+      <p>rotina</p>
+      <hr>
+      <p>calendar IA</p>
+      <hr>
+      <button class="input-login">login</button>
+    </div>
+  </div>
+</div>
